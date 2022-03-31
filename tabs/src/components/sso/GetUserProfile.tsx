@@ -1,10 +1,8 @@
 import { Button } from "@fluentui/react-northstar";
-import { useGraph } from "@microsoft/teamsfx-react";
-import { useContext } from "react";
-import { TeamsFxContext } from "./Context";
+import { useGraph, useTeamsFx } from "@microsoft/teamsfx-react";
 
 export function GetUserProfile(props: {}) {
-    const { teamsfx } = useContext(TeamsFxContext);
+    const { teamsfx } = useTeamsFx();
     const { loading, error, data, reload } = useGraph(
       async (graph, teamsfx, scope) => {
         // Call graph api directly to get user profile information
