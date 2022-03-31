@@ -14,8 +14,10 @@
             "fx-resource-frontend-hosting",
             "fx-resource-identity",
             "fx-resource-local-debug",
-            "fx-resource-appstudio"
+            "fx-resource-appstudio",
+            "fx-resource-aad-app-for-teams"
         ]
     },
-    "programmingLanguage": "typescript"
+    "programmingLanguage": "typescript",
+    "projectId": "58f6fbff-87da-4252-b68b-5bc470605fc6"
 }
